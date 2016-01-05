@@ -18,6 +18,9 @@ private:
 	Vec2f _pos;
 	int count;
 	int enemy_number;
+	int a;
+    Media BGM;
+    
 public:
 	Gamemain();
 
@@ -26,4 +29,5 @@ public:
 	void Draw();
 	Scenename Shift();
 
+    
 };
